@@ -507,7 +507,7 @@ span {
     }
 }
 
-/* ----- 450px to 300px and Below (Better Small Mobile Support) ----- */
+
 @media (max-width: 450px) {
     .about {
         padding: 1rem;
@@ -547,7 +547,58 @@ span {
     }
 }
 
-/* ----- 350px and Below (For Very Small Screens) ----- */
+@media (max-width: 375px) {
+    .nav-header {
+        font-size: 1.3rem;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h5 {
+        font-size: 1.25rem;
+    }
+
+    .about {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about-section {
+        padding: 0.75rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .detail-info {
+        font-size: 1.1rem;
+        line-height: 1.75rem;
+        padding: 0.75rem;
+    }
+
+    .pic-1, .pic-2 {
+        max-width: 160px;
+    }
+
+    .photos-1, .photos-2, .row-photo {
+        max-width: 75%;
+    }
+
+    .skill-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 @media (max-width: 350px) {
     .nav-header {
         font-size: 1.25rem;
@@ -592,7 +643,6 @@ span {
     }
 }
 
-/* ----- 300px and Below (For Extra Small Screens) ----- */
 @media (max-width: 300px) {
     .nav-header {
         font-size: 1rem;
